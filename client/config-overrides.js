@@ -6,6 +6,7 @@ module.exports = function override(config) {
     util: require.resolve("util/"),
     assert: require.resolve("assert/"),
     fs: false,
+    vm: require.resolve("vm-browserify"),
   };
 
   return config;
